@@ -31,7 +31,7 @@
 // type User = {
 //     name: string;
 //     age: number;
-//     address?: string;
+//     address?: string; //Optional
 // };
 
 // function login(userData: User): User {
@@ -220,7 +220,7 @@
 //     name: string;
 //     age: number;
 // }
-
+// Async Operation-
 // const fetchPostData = async (path: string): Promise<IPost[]> => {
 //     const response = await fetch(`http://example.com${path}`);
 //     return response.json();
